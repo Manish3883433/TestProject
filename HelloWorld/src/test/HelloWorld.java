@@ -13,6 +13,8 @@ public class HelloWorld {
 		System.out.println("Welcome to java");
 		System.out.println("Welcome to java");*/
 		
+		System.out.println("**********************************************************");
+		
 		//Numeric data types
 		int a=100;
 		int b=200;
@@ -43,6 +45,99 @@ public class HelloWorld {
 		
 		boolean bl=true;
 		System.out.println(bl);
+		
+		
+		System.out.println("**********************************************************");
+		//Arthmetic operator
+		int x=200;
+		int y=100;
+		System.out.println("sum of x and y:"+(x+y));
+		System.out.println("Difference of x and y:"+(x-y));
+		System.out.println("Multiply of x and y:"+(x*y));
+		System.out.println("Divide of x and y:"+(x/y));
+		System.out.println("Modulo of x and y:"+(x%y));
+		
+		System.out.println("**********************************************************");
+		
+		//relational operator
+		System.out.println(x>y);
+		System.out.println(x>=y);
+		System.out.println(x<y);
+		System.out.println(x<=y);
+		System.out.println(x==y);
+		System.out.println(x!=y);
+		
+		System.out.println("**********************************************************");
+		
+		//logical operator || && !
+		boolean value1=true;
+		boolean value2=false;
+		
+		System.out.println(value1 || value2);
+		System.out.println(value1 && value2);
+		System.out.println(!value1);
+		System.out.println(!value2);
+		
+		System.out.println("**********************************************************");
+		
+		
+		//increment operator
+		int mark=80;
+		mark++;
+		System.out.println(mark);
+		mark--;
+		System.out.println(mark);
+		
+		int new_mark=70;
+		++new_mark;
+		System.out.println(new_mark);
+		--new_mark;
+		System.out.println(new_mark);
+		
+		System.out.println("**********************************************************");
+		
+		int xyx=10;
+		xyx+=5;
+		System.out.println(xyx);
+		
+		//ternary operator
+		int m=100;
+		int n=50;
+		int z=(m>n)?m:n;
+		System.out.println(z);
+		
+		System.out.println("*************************************************************");
+		int person_age=15;
+		String res=person_age>=18?"Eligible for vote":"Not Eligible for vote";
+		System.out.println(res);
+		
+		System.out.println("*************************************************************");
+		
+		//Session 3 Assignment Ques:Swapping of two number
+		int aa=10;
+		int bb=20;
+		System.out.println("Before swapping:"+aa);
+		System.out.println("Before swapping:"+bb);
+//		int temp=aa;
+//		aa=bb;
+//		bb=temp;
+		
+//		aa=aa+bb;
+//		bb=aa-bb;
+//		aa=aa-bb;
+		
+		aa=aa^bb;
+		bb=aa^bb;
+		aa=aa^bb;
+		
+		
+		System.out.println("After swapping:"+aa);
+		System.out.println("After swapping:"+bb);
+		
+		
+		
+		
+		
 
 	}
 
