@@ -9,6 +9,10 @@ public class Array {
 		//System.out.println("test");
 		//Write java code to print array elements appearing 2 or more times
 		//Write a program to read a sentence and print each word along with how many character it contains.
+
+//this is static code for one elements 		
+		
+		
 		
 //		int arr[]= {10,10,10,20,20,30};
 //		int count=0;
