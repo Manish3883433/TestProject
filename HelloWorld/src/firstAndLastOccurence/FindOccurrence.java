@@ -10,6 +10,7 @@ public class FindOccurrence {
         // lastIndexOf() finds the last occurrence
         int lastIndex = text.lastIndexOf('a');
         
+        System.out.println("*************************************************************************");
         System.out.println("First occurrence of 'a' is at index: " + firstIndex);
         System.out.println("Last occurrence of 'a' is at index: " + lastIndex);
     }
