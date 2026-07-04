@@ -15,5 +15,6 @@ public class FindOccurrence {
         System.out.println("*************************************************************************");
         System.out.println("First occurrence of 'a' is at index: " + firstIndex);
         System.out.println("Last occurrence of 'a' is at index: " + lastIndex);
+        System.out.println("!!!!!!!!!!!!!!!@@@@@@@@@@@@@@################$$$$$$$$$$$$$%%%%%%%%^^^^^^^^");
     }
 }
